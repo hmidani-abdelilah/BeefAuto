@@ -28,6 +28,6 @@ python script Automate Beef to use OverWan
 
 
 # DISCLAIMER
-                                       TO BE USED FOR EducationPurpose
+                                       TO BE USED FOR Education Purpose
 
 The use of the BeefAuto COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
