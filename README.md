@@ -38,8 +38,8 @@ python script Automate Beef to use OverWan
 
 # Updates
 * Added SuperMario Game to Distract Target while attacker do hist work
-* ![](/Screenshot/image.png)
-* ![](/Screenshot/SuperBeef.png)
+ ![](/Screenshot/image.png)
+ ![](/Screenshot/SuperBeef.png)
 
 
 
