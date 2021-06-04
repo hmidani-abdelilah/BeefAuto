@@ -69,7 +69,7 @@ def checkngrokparam(ngrokpath, targettouse):
 
 
 def auth():
-    auth = input(Red+'entre ngrok auth:')
+    auth = input(Red+'entre ngrok authtoken:')
     os.system("ngrok authtoken " + auth)
 
 if os.system("which ngrok >/dev/null 2>&1") == 0:
