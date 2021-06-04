@@ -5,6 +5,11 @@ import time
 import signal
 Red ="\u001b[31m"
 Green ="\u001b[32m"
+if os.getuid == 0:
+    pass
+else:
+    print(Red+"Need Root permission")
+    sys.exit()
 def banner():
     os.system("clear")
     print(Green+"""   _____          __                  __________             ___________                
