@@ -4,6 +4,10 @@
 <a href="https://www.facebook.com/achihemek.achihemek/"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> 
 </p>
 
+<a href="https://wikipedia.org/wiki/Python_(programming_language)">
+    <img src="https://img.shields.io/badge/language-python-blue.svg">
+ </a>
+
 python script Automate Beef to use OverWan
 
 # ScreenShots
