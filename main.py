@@ -5,7 +5,7 @@ import time
 import signal
 Red ="\u001b[31m"
 Green ="\u001b[32m"
-if os.getuid == 0:
+if os.getuid() == 0:
     pass
 else:
     print(Red+"Need Root permission")
