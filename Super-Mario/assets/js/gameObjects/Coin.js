@@ -4,10 +4,9 @@ class Coin {
     constructor(scene) {
         this.scene = scene;
 
-        //creation des pièces dans une groupe
         this.coins = this.scene.physics.add.group({
-            immovable: true, //pour que mario ne peut pas les pousser
-            allowGravity: false//pour ne pas avoir des problème de gravité(les pièces commenceront à voler si c'est true :p)
+            immovable: true, 
+            allowGravity: false
         });
 
         //on mets les pièces à partir du calque d'objet qu'on a crée
@@ -44,7 +43,6 @@ class Coin {
     }
     update() {
 
-        //pour répeter l'animation du rotation de toutes les pièces
         for (const coin of this.coins.children.entries) {
             coin.play('spin', true);
         }
@@ -52,10 +50,7 @@ class Coin {
         //ajout de collision des pièces
         for (const coin of this.coins.children.entries) {
 
-            //on utilise overlap à la place de collider 
-            //vous utiliseriez un collisionneur là où vous voulez que les objets soient bloqués les uns par les autres,
-            // plutôt que de les faire se chevaucher(overlap)
-            //c'est pour ca qu'on utilise overlap et on appelle la fonction collect
+            
             coin.collider = this.scene.physics.add.overlap(coin, this.scene.player.sprite, this.collect, null, this);
         }
 
