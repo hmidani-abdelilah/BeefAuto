@@ -2,9 +2,7 @@ import increaseScore from "../config/increaseScore.js"
 import increaseCoins from "../config/increaseCoins.js"
 const audio = require("../config/addAudio").bumpAudio;
 
-//Blocks a le meme principe que bouncy mais au lieu de le toucher en haut on le touche en bas et on active son animation de mort
-//(pour qu'il soit marron)
-//le changement c'est dans vanish
+
 class Block {
     constructor(scene) {
         this.scene = scene;
@@ -33,13 +31,10 @@ class Block {
         }
     }
 
-    //vanish permet de changer les briques en des briques marron(briques morts)
     vanish() {
 
-        //pacour des briques
         for (const block of this.blocks.children.entries) {
 
-            //on l'a touché en bas
             if (block.body.touching.down) {
 
                 //si le brique n'est pas mort on ajoute le score et le nombre des pièces
@@ -48,13 +43,10 @@ class Block {
                     increaseCoins(1);
                 }
 
-                // l'audio des briques
                 audio.play()
 
-                //on change l'etat du brique
                 block.isDed = true;
 
-                //on fait l'animation
                   block.play('dead-block', true);
 
 
