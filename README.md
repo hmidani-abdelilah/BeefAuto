@@ -44,8 +44,8 @@ python script Automate Beef to use OverWan
  ![](/Screenshot/SuperBeef.png)
 * Added Function to obfuscate Url and Make it Less suspicious
  ![](/Screenshot/0bfuscated.png)
-
-
+* Added Webpage that show target yt Video in order to keep him in the webpage
+  ![](/Screenshot/yt-dis.png)
 
 
 # DISCLAIMER
