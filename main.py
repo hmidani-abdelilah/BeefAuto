@@ -12,7 +12,7 @@ def spoofurl():
         dataget = {"u": "http://" + x, "Shorten URL": "submit"}
         rep = requests.post(url, data=dataget)
         shortenurl = rep.text[10350:10367]
-        short = "https://googleweblight.com/i?u=http://" + shortenurl
+        short = "https://googleweblight.com/i?u=" + shortenurl
         print(Green + "obfuscatedurl=" + short)
     else:
         pass
