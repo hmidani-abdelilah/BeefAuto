@@ -42,6 +42,8 @@ python script Automate Beef to use OverWan
 * Added SuperMario Game to Distract Target while attacker do hist work
  ![](/Screenshot/image.png)
  ![](/Screenshot/SuperBeef.png)
+* Added Function to obfuscate Url and Make it Less suspicious
+ ![](/Screenshot/obfuscated.png)
 
 
 
