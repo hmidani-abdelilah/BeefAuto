@@ -43,7 +43,7 @@ python script Automate Beef to use OverWan
  ![](/Screenshot/image.png)
  ![](/Screenshot/SuperBeef.png)
 * Added Function to obfuscate Url and Make it Less suspicious
- ![](/Screenshot/obfuscated.png)
+ ![](/Screenshot/0bfuscated.png)
 
 
 
