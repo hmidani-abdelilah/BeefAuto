@@ -17,8 +17,7 @@
  
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
 
-python script Automate Beef to use OverWan
-
+python script Automate Beef  And Configure it to use overwan 
 # ScreenShots
 
 ![](/Screenshot/beef.png)
