@@ -55,7 +55,9 @@ python script Automate Beef  And Configure it to use overwan by using ngrok to o
 * Added Function to obfuscate Url and Make it Less suspicious
  ![](/Screenshot/0bfuscated.png)
 * Added Webpage that show target yt Video in order to keep him in the webpage
-  ![](/Screenshot/yt-dis.png)
+ ![](/Screenshot/yt-dis.png)
+* Added Fake CloudFlare Page to make hooked website more trusted by target 
+ ![](/Screenshot/CloudFlare.png)
 
 
 # DISCLAIMER
