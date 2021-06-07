@@ -30,10 +30,13 @@ python script Automate Beef to use OverWan
 # INSTALLATION [ KALI ]
 * git clone https://github.com/youhacker55/BeefAuto
 * cd BeefAuto
+* sudo bash install.sh
 * sudo python3 main.py
 # TESTED ON FOLLOWING:-
 * Kali Linux
 
+# How To UPDATE
+* sudo bash update.sh
 
 # LANGUAGE 
 * Python
