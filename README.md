@@ -40,6 +40,13 @@ python script Automate Beef  And Configure it to use overwan
 # LANGUAGE 
 * Python
 
+## Features
+<p>In this tool I added two automatic webpage templates for engaged target on webpage to keep target on the hooked webpage while attacker exploit him</p>
+<ul>
+  <li>Super Mario Game</li>
+  <li>YT Video</li>
+</ul>
+
 # Updates
 * Added SuperMario Game to Distract Target while attacker do hist work
  ![](/Screenshot/image.png)
